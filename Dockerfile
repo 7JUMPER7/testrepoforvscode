@@ -1,4 +1,4 @@
 
 FROM linuxserver/code-server:latest
 
-RUN sude apt-get install python
+RUN apt-get install python
