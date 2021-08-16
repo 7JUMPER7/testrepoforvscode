@@ -21,5 +21,3 @@ jobs:
         with:
           push: true
           tags: bencdr/code-server-deploy-container:latest
-      - name: Image digest
-        run: echo ${{ steps.docker_build.outputs.digest }}
